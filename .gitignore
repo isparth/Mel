@@ -1,0 +1,5 @@
+# SwiftPM
+apps/ios/MelApp/.build/
+
+# macOS
+.DS_Store
