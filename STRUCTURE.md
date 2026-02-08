@@ -18,4 +18,5 @@ docs/                 # Product and UX documentation
 
 Notes:
 - This is a lean monorepo layout to keep the iOS client and backend services aligned.
-- We can refine substructure once we choose the backend stack and iOS project layout.
+- Go services live under `services/` and are wired together via `go.work`.
+- The iOS app uses Swift Package Manager under `apps/ios/MelApp`.
